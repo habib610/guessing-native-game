@@ -103,10 +103,10 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 22,
     backgroundColor: Colors.orange,
-    // width: "100%",
     padding: 10,
     textAlign: "center",
     color: "#fff",
+    fontFamily: "open-sans-bold"
   },
   buttonContainer: {
     flexDirection: "row",
