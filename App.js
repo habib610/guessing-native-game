@@ -59,7 +59,6 @@ export default function App() {
     <View style={styles.container}>
       <Header title="Guessing Game" />
       {content}
-      <Text style={styles.test}>Hello text</Text>
     </View>
   );
 }
@@ -68,10 +67,4 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  test: {
-    fontSize: 22,
-    backgroundColor: Colors.pink,
-    padding: 10,
-    color: "#fff",
-  }
 });
